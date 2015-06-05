@@ -1,4 +1,5 @@
 def mean(num_list):
+    """This is a mean function"""
     for i in num_list:
         if isinstance(i, complex):
             a = NotImplemented
